@@ -1,24 +1,24 @@
 class Vix < Formula
   desc "AI coding agent"
   homepage "https://github.com/get-vix/vix"
-  version "0.5.1"
+  version "0.5.2"
   license "AGPL-3.0-or-later"
 
   on_macos do
     on_arm do
-      url "https://github.com/get-vix/vix/releases/download/v0.5.1/vix-darwin-arm64.tar.gz"
-      sha256 "5fe27aefd43600f9edfde982ad66a79d90d1582bc82fd5625400813d0eba775b"
+      url "https://github.com/get-vix/vix/releases/download/v0.5.2/vix-darwin-arm64.tar.gz"
+      sha256 "ec18802cc6c1102ec2a3095ee1a556c8ef7cf5019c0366c5e308bb11886c771d"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/get-vix/vix/releases/download/v0.5.1/vix-linux-arm64.tar.gz"
-      sha256 "d66bd175060665c0de1692a2e7c019ccd58997443d76292ac249b20e49d13921"
+      url "https://github.com/get-vix/vix/releases/download/v0.5.2/vix-linux-arm64.tar.gz"
+      sha256 "8bb0f3b3277a4e5b45499fe8189f9130d37089760b1106ff23e5eab382ec0d49"
     end
     on_intel do
-      url "https://github.com/get-vix/vix/releases/download/v0.5.1/vix-linux-amd64.tar.gz"
-      sha256 "3cee54c0b3f8c925c66a1fe66d5054ef1ec321b895fa7d784c6025cc6de80403"
+      url "https://github.com/get-vix/vix/releases/download/v0.5.2/vix-linux-amd64.tar.gz"
+      sha256 "97657e2e31b0675886e0f8916b9d4cd7623ae921d86d74c994eb9ad7f025eb20"
     end
   end
 
